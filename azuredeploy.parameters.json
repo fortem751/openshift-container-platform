@@ -9,10 +9,10 @@
 			"value": "gallery"
 		},
 		"customStorageAccount": {
-			"value": "changeme"
+			"value": "ossdemo"
 		},
 		"customOsDiskName": {
-			"value": "changeme"
+			"value": "ossdisk"
 		},
 		"masterVmSize": {
 			"value": "Standard_DS3_v2"
@@ -24,7 +24,7 @@
 			"value": "Standard_DS12_v2"
 		},
 		"openshiftClusterPrefix": {
-			"value": "changeme"
+			"value": "oss"
 		},
 		"openshiftMasterPublicIpDnsLabel": {
 			"value": "GEN-UNIQUE"
@@ -33,31 +33,31 @@
 			"value": "GEN-UNIQUE"
 		},
 		"masterInstanceCount": {
-			"value": 1
+			"value": 3
 		},
 		"infraInstanceCount": {
-			"value": 1
+			"value": 3
 		},
 		"nodeInstanceCount": {
-			"value": 1
+			"value": 3
 		},
 		"dataDiskSize": {
 			"value": 128
 		},
 		"adminUsername": {
-			"value": "changeme"
+			"value": "ossuser"
 		},
 		"openshiftPassword": {
 			"value": "changeme"
 		},
 		"enableMetrics": {
-			"value": "false"
+			"value": "true"
 		},
 		"enableLogging": {
-			"value": "false"
+			"value": "true"
 		},
 		"enableCockpit": {
-			"value": "false"
+			"value": "true"
 		},
 		"rhsmUsernamePasswordOrActivationKey": {
 			"value": "password"
@@ -75,10 +75,10 @@
 			"value": "GEN-SSH-PUB-KEY"
 		},
 		"keyVaultResourceGroup": {
-			"value": "changeme"
+			"value": "ossdemo"
 		},
 		"keyVaultName": {
-			"value": "changeme"
+			"value": "ossKV"
 		},
 		"keyVaultSecret": {
 			"value": "changeme"
@@ -93,7 +93,7 @@
 			"value": "xipio"
 		},
 		"defaultSubDomain": {
-			"value": "changeme"
+			"value": "ignore"
 		}
 	}
 }
