@@ -96,7 +96,7 @@
 		},
 		"openshiftClusterPrefix": {
 			"type": "string",
-			"defaultValue": "mycluster",
+			"defaultValue": "osscluster",
 			"minLength": 1,
 			"maxLength": 20,
 			"metadata": {
